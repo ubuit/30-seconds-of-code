@@ -1,0 +1,16 @@
+# snippets.yml
+
+- name: stringTruncate
+  description: Truncates a string to the given length with input validation
+  module: snippets/stringTruncate.js
+  tests: __tests__/stringTruncate.test.js
+
+- name: arraySum
+  description: Sums all elements of an array, returns 0 for empty arrays
+  module: snippets/arraySum.js
+  tests: __tests__/arraySum.test.js
+
+- name: isPrime
+  description: Returns true if a number is prime, false otherwise
+  module: snippets/isPrime.js
+  tests: __tests__/isPrime.test.js
